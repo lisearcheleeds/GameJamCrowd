@@ -21,7 +21,7 @@ public class AIActorController : ActorController
             return;
         }
 
-        resetCount = 300;
+        resetCount = 120;
 
         var isSelected = ActorState.Level == ActorState.Skills.Count(x => x);
         if (isSelected)
