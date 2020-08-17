@@ -43,7 +43,7 @@ public class EntryPoint : MonoBehaviour
                     titleUI.SetActive(false);
                     gameUI.SetActive(false);
                     resultUI.SetActive(true);
-                    resultText.text = $"{gameManager.AliveActorCount}位";
+                    resultText.text = $"Ranking {gameManager.AliveActorCount}!";
                 }
                 break;
 

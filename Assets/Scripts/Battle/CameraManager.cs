@@ -41,7 +41,7 @@ public class CameraManager : MonoBehaviour
             return;
         }
 
-        mainCamera.transform.position += ((target.position + Offset) - mainCamera.transform.position) * 0.1f;
+        mainCamera.transform.position += ((target.position + Offset) - mainCamera.transform.position) * 0.2f;
         mainCamera.transform.LookAt(target, Vector3.up);
     }
 }
