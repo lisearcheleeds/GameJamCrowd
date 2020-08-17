@@ -1707,7 +1707,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u653B\u6483\u529B\n\u5F3E\u901F"
+  m_Text: 'Damage+
+
+    BulletSpeed+'
 --- !u!222 &475675971
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2979,7 +2981,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6700\u5927HP\nHP\u81EA\u52D5\u56DE\u5FA9"
+  m_Text: 'MaxHP+
+
+    HPRegeneration+'
 --- !u!222 &847784175
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3929,7 +3933,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u653B\u6483\u529B\n\u5F3E\u901F"
+  m_Text: 'Damage+
+
+    BulletSpeed+'
 --- !u!222 &1059883616
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4040,7 +4046,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6700\u5927HP\nHP\u81EA\u52D5\u56DE\u5FA9"
+  m_Text: 'MaxHP+
+
+    HPRegeneration+'
 --- !u!222 &1123196968
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4315,7 +4323,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u653B\u6483\u529B\n\u5F3E\u901F"
+  m_Text: 'Damage+
+
+    BulletSpeed+'
 --- !u!222 &1186991925
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4586,7 +4596,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u653B\u6483\u901F\u5EA6\n\u79FB\u52D5\u901F\u5EA6"
+  m_Text: 'AttackSpeed+
+
+    MoveSpeed+'
 --- !u!222 &1236978739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4664,7 +4676,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u653B\u6483\u901F\u5EA6\n\u79FB\u52D5\u901F\u5EA6"
+  m_Text: 'AttackSpeed+
+
+    MoveSpeed+'
 --- !u!222 &1250536464
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5478,7 +5492,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6700\u5927HP\nHP\u81EA\u52D5\u56DE\u5FA9"
+  m_Text: 'MaxHP+
+
+    HPRegeneration+'
 --- !u!222 &1532301276
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6634,7 +6650,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u653B\u6483\u901F\u5EA6\n\u79FB\u52D5\u901F\u5EA6"
+  m_Text: 'AttackSpeed+
+
+    MoveSpeed+'
 --- !u!222 &1917137752
 CanvasRenderer:
   m_ObjectHideFlags: 0

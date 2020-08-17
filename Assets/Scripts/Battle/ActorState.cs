@@ -16,12 +16,12 @@ public class ActorState
 
     public bool IsDead => HP <= 0;
 
-    public int AttackInterval => 150 - Skills.Take(3).Count(x => x) * 30;
-    public float MoveSpeed => 0.03f + Skills.Take(3).Count(x => x) * 0.02f;
+    public int AttackInterval => (150 - Skills.Take(3).Count(x => x) * 30) / 2;
+    public float MoveSpeed => (0.03f + Skills.Take(3).Count(x => x) * 0.02f) * 2;
     public int HPMax => 50 + Skills.Skip(3).Take(3).Count(x => x) * 50;
-    public float HPRegeneration => 0.003f + Skills.Skip(3).Take(3).Count(x => x) * 0.002f;
+    public float HPRegeneration => (0.003f + Skills.Skip(3).Take(3).Count(x => x) * 0.002f) * 2;
     public int AttackDamage => 10 + Skills.Skip(6).Take(3).Count(x => x) * 5;
-    public float BulletSpeed => 0.15f + Skills.Skip(6).Take(3).Count(x => x) * 0.1f;
+    public float BulletSpeed => (0.15f + Skills.Skip(6).Take(3).Count(x => x) * 0.1f) * 2;
 
     public bool IsMoveAttack => Skills.Take(3).All(x => x);
     public bool IsDodge => Skills.Skip(3).Take(3).All(x => x);
