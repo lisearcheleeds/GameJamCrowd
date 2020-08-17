@@ -35,7 +35,7 @@ public abstract class ActorController
         if (collision.gameObject.layer == 10)
         {
             var bullet = collision.gameObject.GetComponent<BulletColliderConnector>()?.Bullet;
-            if (bullet != null)
+            if (bullet != null && bullet.Owner != actor)
             {
                 ActorState.Damage(bullet.AttackDamage);
                 if (ActorState.IsDead)
