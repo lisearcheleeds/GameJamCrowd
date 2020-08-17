@@ -1,0 +1,10 @@
+Library/
+Logs/
+obj/
+Packages/
+Temp/
+*.csproj
+*.sln
+.vs/
+Assets/AssetStoreTools
+Assets/AssetStoreTools.meta
