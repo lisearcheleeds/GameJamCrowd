@@ -21,7 +21,7 @@ public class ActorState
     public int HPMax => 50 + Skills.Skip(3).Take(3).Count(x => x) * 50;
     public float HPRegeneration => (0.003f + Skills.Skip(3).Take(3).Count(x => x) * 0.002f) * 5;
     public int AttackDamage => 10 + Skills.Skip(6).Take(3).Count(x => x) * 5;
-    public float BulletSpeed => (0.15f + Skills.Skip(6).Take(3).Count(x => x) * 0.1f) * 5;
+    public float BulletSpeed => (0.15f + Skills.Skip(6).Take(3).Count(x => x) * 0.1f) * 2;
 
     public bool IsMoveAttack => Skills.Take(3).All(x => x);
     public bool IsDodge => Skills.Skip(3).Take(3).All(x => x);

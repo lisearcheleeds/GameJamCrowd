@@ -100,13 +100,14 @@ public class GameManager : MonoBehaviour
 
         if (!aliveList.Any(x => x.IsPlayer))
         {
-            State = 2;
+            State = 3;
             return;
         }
 
+        Debug.Log("aliveList : " + aliveList.Length);
         if (aliveList.Length <= 1)
         {
-            State = 1;
+            State = 2;
             return;
         }
     }
